@@ -1,17 +1,39 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import Box from "../layout/Box";
 import Header from "../layout/Header";
 import "./Home.css";
 
 const Home = () => {
+
+    let navigate = useNavigate()
+
+    const tobyGitHandler = () => {
+        navigate('https://github.com/Pencilcaseman')
+    }
+
     return <div>
         <Header />
         <div className="layout">
-            <h1>Home Page</h1>
-            {/* <div className="items">
-                <Box>Dummy Info 1</Box>
-                <Box>Dummy Info 2</Box>
-                <Box>Dummy Info 3</Box> 
-            </div> */}
+        <h1>Computer Science Contributions To Society</h1>
+            <h2>Our Contact Info</h2>
+            <div className="items">
+                <Box>
+                    <h2>Toby Davis</h2>
+                    {/* <Button color="white" name="toby" onClick={tobyGitHandler}>GitHub</Button> */}
+                </Box>
+                <Box>
+                    <h2>Anton Egorov</h2>
+                </Box>
+                <Box>
+                    <h2>Lewis Hurd</h2>
+                </Box>
+                <Box>
+                    <h2>
+                        Shenghuan Xiao
+                    </h2>
+                </Box>
+            </div>
         </div>
     </div>
 }
