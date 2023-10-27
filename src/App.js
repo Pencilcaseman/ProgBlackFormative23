@@ -6,6 +6,7 @@ import './App.css';
 
 import Home from './components/pages/Home';
 import PageNotFound from './components/pages/PageNotFound';
+import ParticlePhysics from './components/pages/ParticlePhysics';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='*' element={<PageNotFound />} />
+        <Route path='/particlephysics' element={<ParticlePhysics />} />
       </Routes>
     </Router>
   );
