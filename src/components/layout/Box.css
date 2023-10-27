@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'SourceCodePro-Black';
+    src: url(../fonts/static/SourceCodePro-Black.ttf);
+    font-weight: 900;
+}
+
+.box {
+    width: fit-content;
+    flex-direction: column;
+    height: 300px;
+    text-align: center;
+    background-color: #002c3e;
+    color: #F7F8f3;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding-left: 75px;
+    padding-right: 75px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+    border-radius: 7%;
+    font-family: 'SourceCodePro-Black';
+}

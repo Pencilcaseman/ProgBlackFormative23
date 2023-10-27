@@ -1,0 +1,18 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    flex-direction: column;
+    background-image: radial-gradient(circle, black,black,white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 800;
+    font-size: xx-large;
+    color: white;
+}

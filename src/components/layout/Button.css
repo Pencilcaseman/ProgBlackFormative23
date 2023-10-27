@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'SourceCodePro-Medium';
+    src: url(../fonts/static/SourceCodePro-Medium.ttf);
+    font-weight: 900;
+}
+
+.custom-button{
+    border: none;
+    border-radius: 5px;
+    color: #F7F8f3;
+    width: fit-content;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 2px 2px 6px grey;
+    transition: .25s;
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+    font-family: 'SourceCodePro-Medium'
+    }
+    .custom-button:after {
+    content: "";
+    background: lightgray;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    }
+    .custom-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+    }
+    /* Button Colors */
+    .white{
+    background-color: #F7F8f3;
+    color: #002c3e;
+    }
+    .green{
+    background-color: #3cba54;
+    }
+    .red{
+    background-color: #db3236;
+    }
+    /* Button Effects */
+    .button-container button.custom-button.white:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #78bcc4;
+    opacity: 0.9;
+    box-shadow: 2px 2px 20px grey;
+    }
+    .button-container button.custom-button.green:hover{
+    cursor: pointer;
+    background-color: #298039;
+    box-shadow: 2px 2px 20px grey;
+    }
+    .button-container button.custom-button.red:hover{
+    cursor: pointer;
+    background-color: #9e2427;
+    box-shadow: 2px 2px 20px grey;
+    }
