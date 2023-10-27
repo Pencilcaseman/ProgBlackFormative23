@@ -19,11 +19,16 @@ const Header = () => {
         navigate('/particlephysics')
     }
 
+    const artificialIntelligenceHandler = () => {
+        navigate('/artificial-intelligence');
+    }
+
     return <div className="container">
          <h1 className="item">ProgBlack Assignment</h1>
         <div className="buttons">
             {/* <Button color="white" name="About" onClick={aboutPageHandler}/> */}
             <Button color="white" name="home" onClick={homePageHandler} />
+            <Button color="white" name="AI/ML" onClick={artificialIntelligenceHandler} />
             <Button color="white" name="particle physics" onClick={particlePhysicsPageHandler} />
         </div>
     </div>
