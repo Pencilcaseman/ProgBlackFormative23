@@ -5,6 +5,7 @@ import {
 import './App.css';
 
 import Home from './components/pages/Home';
+import ArtificialIntelligence from "./components/pages/ArtificialIntelligence";
 import PageNotFound from './components/pages/PageNotFound';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/home' element={<Home />} />
+        <Route path='/artificial-intelligence' element={<ArtificialIntelligence />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </Router>
