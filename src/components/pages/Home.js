@@ -9,7 +9,7 @@ const Home = () => {
     let navigate = useNavigate()
 
     const tobyGitHandler = () => {
-        navigate('https://github.com/Pencilcaseman')
+        alert("HAHA YOU THOUGHT")
     }
 
     return <div>
@@ -20,7 +20,7 @@ const Home = () => {
             <div className="items">
                 <Box>
                     <h2>Toby Davis</h2>
-                    {/* <Button color="white" name="toby" onClick={tobyGitHandler}>GitHub</Button> */}
+                    {/* <Button color="white" name="Github" onClick={tobyGitHandler}/> */}
                 </Box>
                 <Box>
                     <h2>Anton Egorov</h2>
