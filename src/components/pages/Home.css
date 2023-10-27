@@ -15,6 +15,13 @@
      color: #002c3e;
      font-family: 'SourceCodePro-Black';
   }
+
+  .layout h2 {
+    text-align: center;
+    padding-top: 5px;
+    color: #002c3e;
+    font-family: 'SourceCodePro-Black'; 
+  }
  
   .items {
      flex-direction: row;
