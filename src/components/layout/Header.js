@@ -16,7 +16,7 @@ const Header = () => {
     }
 
     return <div className="container">
-        <h1 className="item">My Portfolio</h1>
+        <h1 className="item">Computing Contributions</h1>
         <div className="buttons">
             {/* <Button color="white" name="About" onClick={aboutPageHandler}/> */}
             <Button color="white" name="home" onClick={homePageHandler} />
