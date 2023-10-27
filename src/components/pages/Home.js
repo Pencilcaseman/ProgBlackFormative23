@@ -15,7 +15,7 @@ const Home = () => {
     return <div>
         <Header />
         <div className="layout">
-            <h1>Computer Science Contributions To Society</h1>
+        <h1>Computer Science Contributions To Society</h1>
             <h2>Our Contact Info</h2>
             <div className="items">
                 <Box>

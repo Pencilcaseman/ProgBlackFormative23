@@ -15,11 +15,16 @@ const Header = () => {
         navigate('/home')
     }
 
+    const particlePhysicsPageHandler = () => {
+        navigate('/particlephysics')
+    }
+
     return <div className="container">
-        <h1 className="item">Computing Contributions</h1>
+         <h1 className="item">ProgBlack Assignment</h1>
         <div className="buttons">
             {/* <Button color="white" name="About" onClick={aboutPageHandler}/> */}
             <Button color="white" name="home" onClick={homePageHandler} />
+            <Button color="white" name="particle physics" onClick={particlePhysicsPageHandler} />
         </div>
     </div>
 }
