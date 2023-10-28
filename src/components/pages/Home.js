@@ -5,12 +5,6 @@ import Header from "../layout/Header";
 import "./PageStyling.css";
 
 const Home = () => {
-    const Bool = false
-
-    const shenPageHandler  = () => {
-        alert("Could Not Find Their GitHub")
-
-    }
     return <div>
         <Header />
         <div className="layout">
@@ -41,8 +35,8 @@ const Home = () => {
                     <h2>
                         Shenghuan Xiao
                     </h2>
-                    <a href="https://github.com/Pencilcaseman/ProgBlackFormative23" target="_blank" rel="noopener noreferrer">
-                        <Button color="blue" name="Github" onClick={shenPageHandler}/>
+                    <a href="https://github.com/Piwaishang" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github"/>
                     </a> 
                 </Box>
             </div>
