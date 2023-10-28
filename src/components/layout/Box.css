@@ -20,7 +20,7 @@
     flex-grow: 1;
     border-radius: 1rem;
     font-family: 'SourceCodePro-Black';
-    box-shadow: #f02d3a;
+    box-shadow: 2px 2px 5px #f02d3a;
 }
 
 .box h2 {
