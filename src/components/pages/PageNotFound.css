@@ -8,11 +8,11 @@
     left: 0px;
     position: absolute;
     flex-direction: column;
-    background-image: radial-gradient(circle, black,black,white);
+    background-image: radial-gradient(circle, white,white,#DD0246);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: 800;
     font-size: xx-large;
-    color: white;
+    color: #DD0246;
 }
