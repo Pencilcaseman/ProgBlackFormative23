@@ -1,17 +1,16 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Box from "../layout/Box";
+import Button from "../layout/Button";
 import Header from "../layout/Header";
 import "./Home.css";
 
 const Home = () => {
+    const Bool = false
 
-    let navigate = useNavigate()
+    const shenPageHandler  = () => {
+        alert("Could Not Find Their GitHub")
 
-    const tobyGitHandler = () => {
-        alert("HAHA YOU THOUGHT")
     }
-
     return <div>
         <Header />
         <div className="layout">
@@ -20,18 +19,31 @@ const Home = () => {
             <div className="items">
                 <Box>
                     <h2>Toby Davis</h2>
-                    {/* <Button color="white" name="Github" onClick={tobyGitHandler}/> */}
+                    {/* https://bobbyhadz.com/blog/react-button-link */}
+                    {/* For Help on getting the button to navigate to an external page */}
+                    <a href="https://github.com/Pencilcaseman" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github"/>
+                    </a>
                 </Box>
                 <Box>
                     <h2>Anton Egorov</h2>
+                    <a href="https://github.com/antonov737" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github"/>
+                    </a>
                 </Box>
                 <Box>
                     <h2>Lewis Hurd</h2>
+                    <a href="https://github.com/jelahu" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github"/>
+                    </a>
                 </Box>
                 <Box>
                     <h2>
                         Shenghuan Xiao
                     </h2>
+                    <a href="https://github.com/Pencilcaseman/ProgBlackFormative23" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github" onClick={shenPageHandler}/>
+                    </a> 
                 </Box>
             </div>
         </div>
