@@ -1,8 +1,38 @@
-.App {
-  text-align: center;
+/* Height Bug Fix From
+https://stackoverflow.com/questions/38428322/react-component-full-screen-with-height-100 */
+
+:root {
+  --background: #EFF6EE;
+  --white: #ffffff;
+  --header: #273043;
+  --boxes: #f02d3a;
+  --button-hover: #DD0246;
+  --text: #9197ae;
 }
 
-.App-logo {
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div#root {
+  height: 100%; /* remove this line to see div.app is no more 100% height */
+  background-color: var(--white);
+}
+
+div.app {
+  height: 100%;
+  background-color: var(--white);
+}
+
+div h1 h2{
+  color: var(--text);
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,9 +41,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +56,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
