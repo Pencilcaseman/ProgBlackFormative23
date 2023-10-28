@@ -43,8 +43,8 @@
     background-color: #F7F8f3;
     color: #002c3e;
     }
-    .green{
-    background-color: #3cba54;
+    .blue{
+    background-color: #273043;
     }
     .red{
     background-color: #db3236;
@@ -57,9 +57,9 @@
     opacity: 0.9;
     box-shadow: 2px 2px 20px grey;
     }
-    .button-container button.custom-button.green:hover{
+    .button-container button.custom-button.blue:hover{
     cursor: pointer;
-    background-color: #298039;
+    background-color: #f02d3a;
     box-shadow: 2px 2px 20px grey;
     }
     .button-container button.custom-button.red:hover{
