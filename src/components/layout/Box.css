@@ -7,7 +7,7 @@
 .box {
     width: fit-content;
     flex-direction: column;
-    height: 300px;
+    height: fit-content;
     text-align: center;
     background-color: #DD0246;
     color: #F7F8f3;
