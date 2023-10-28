@@ -5,7 +5,7 @@
     }
   }
  
- .layout {
+ /* .layout {
    display: flex;
    flex-direction: column;
 }
@@ -25,65 +25,23 @@
    color: #002c3e;
    font-family: 'SourceCodePro-Black';
    margin: 0;
-}
+} */
 
 .layout h3 {
-   text-align: center;
-   padding-top: 0px;
    size: 1;
-   color: #002c3e;
-   font-family: 'SourceCodePro-Black';
-   margin: 0;
-}
-
-.layout dt {
-   text-align: left;
-   padding-top: 5px;
-   color: #002c3e;
-   font-family: 'SourceCodePro-Black';
-   margin: 0;
 }
 
 .layout p {
-   text-align: left;
    padding-top: 5px;
-   color: #002c3e;
    font-weight: normal;
-   font-family: 'Arial', serif;
    max-width: 60%;
 }
 
-.layout dd {
-   text-align: left;
-   padding-top: 5px;
-   padding-bottom: 20px;
-   color: #002c3e;
-   font-weight: normal;
-   margin-left: 20px;
-   font-family: 'Arial', serif;
-   max-width: 60%;
-}
-
-.centerImage {
+/* .centerImage {
    align-items: center;
    text-align:center;
    align-content: center;
    display:block;
    margin-left: auto;
    max-width: 500px;
-}
-
-.flexColumn {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: baseline;
-   padding-left: 28%;
-}
-
-.items {
-   flex-direction: row;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: baseline;
-}
+} */

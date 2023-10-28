@@ -2,7 +2,7 @@ import React from "react";
 import Box from "../layout/Box";
 import Button from "../layout/Button";
 import Header from "../layout/Header";
-import "./Home.css";
+import "./PageStyling.css";
 
 const Home = () => {
     const Bool = false
@@ -16,7 +16,7 @@ const Home = () => {
         <div className="layout">
         <h1>Computer Science Contributions To Society</h1>
             <h2>Our Contact Info</h2>
-            <div className="items">
+            <div className="home-items">
                 <Box>
                     <h2>Toby Davis</h2>
                     {/* https://bobbyhadz.com/blog/react-button-link */}
