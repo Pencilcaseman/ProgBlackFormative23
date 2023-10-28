@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../layout/Button";
 import './Header.css';
+import logo from "./logo.png";
 
 const Header = () => {
 
@@ -22,8 +23,9 @@ const Header = () => {
     const artificialIntelligenceHandler = () => {
         navigate('/artificial-intelligence');
     }
-
+    console.log(logo)
     return <div className="container">
+        <img src={logo} alt=""/>
          <h1 className="item">ProgBlack Assignment</h1>
         <div className="buttons">
             {/* <Button color="white" name="About" onClick={aboutPageHandler}/> */}
