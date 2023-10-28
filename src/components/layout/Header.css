@@ -21,6 +21,10 @@
     font-family: 'SourceCodePro-Black';
 }
 
+.container img {
+    background-color: #273043;
+}
+
 .buttons {
     display: flex;
     margin-left: auto;
