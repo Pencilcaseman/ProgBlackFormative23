@@ -13,7 +13,7 @@ const ParticlePhysics = () => {
 
                 <h3>By Anton Egorov. (See info below)</h3>
 
-                <h2> Introduction </h2>
+                <h2 href="#intro"> Introduction </h2>
 
                 <p>
                     Learning/simulating particle physics is essential to humans' understanding
@@ -39,7 +39,7 @@ const ParticlePhysics = () => {
                         Computer algebra is a scientific area that refers to the study and development of algorithms
                         and software for manipulating mathematical expressions and mathematical objects. Many of the
                         computer algebra languages were developed initally to help solve particle physics calculations,
-                        such as Reduce, Form, Mathematica, etc. (see citations c1,c2)
+                        such as Reduce, Form, Mathematica, etc. (<a href='/particlephysics_citations'>see citations c1,c2</a>)
                     </p>
                     <h3>Data Grid</h3>
                     <p>
@@ -48,14 +48,14 @@ const ParticlePhysics = () => {
                         acting together to perform large tasks. The largest example of use of grid systems will be for 
                         the analysis of the Large Hadron Collider (LHC) - the world's largest and highest energy 
                         particle collider. In the example of LHC, software packages have been developed to support this 
-                        application, such as the LHC Computing Grid. (see citations c1, c3)
+                        application, such as the LHC Computing Grid. (<a href='/particlephysics_citations'>see citations c1, c3</a>)
                     </p>
                     <h3>Data Analysis Tools</h3>
                     <p>
                         As one may expect, particle physics experiments and simulations will generate a LOT of data, 
                         often creating Large Data Sets, which need to be efficiently, but effectively analysed to 
                         be able to draw conclusions from that data. Big Data techniques such as functional programming, 
-                        record locks may be used to operate on large data sets. (see citiations c1)
+                        record locks may be used to operate on large data sets. (<a href='/particlephysics_citations'>see citiations c1</a>)
                     </p>
                     <h3>Software Libraries (Monte Carlo Methods)</h3>
                     <p>
@@ -64,16 +64,15 @@ const ParticlePhysics = () => {
                         Monte Carlo simulation techniques. To put it briefly, Monte Carlo methods are a broad class 
                         of computational algorithms that rely on repeated random sampling to obtain numerical results. 
                         Monte Carlo methods are particularly useful because they can simulate systems with many coupled 
-                        degrees of freedom, such as interacting particle systems. (see citations c1, c5)
+                        degrees of freedom, such as interacting particle systems. (<a href='/particlephysics_citations'>see citations c1, c4</a>)
                     </p>
 
                     <h2>The positive effects of Computational Particle Physics</h2>
 
                     <p>
                         Though there are many obvious positive effects of compututational particle physics 
-                        that were mentioned in the Introduction (link here), there Some indirect effects which
-                        may surprise you. (see citation c7)
-
+                        that were mentioned in the Introduction, there some indirect effects which
+                        may surprise you. (<a href='/particlephysics_citations'>see citation c5</a>)
                     </p>
 
                     <h3>The World Wide Web</h3>
