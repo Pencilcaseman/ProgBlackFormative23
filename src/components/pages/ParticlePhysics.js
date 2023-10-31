@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../layout/Header";
+import Button from "../layout/Button";
 import "./PageStyling.css";
 import "./ParticlePhysics.css";
 
@@ -65,6 +66,55 @@ const ParticlePhysics = () => {
                         Monte Carlo methods are particularly useful because they can simulate systems with many coupled 
                         degrees of freedom, such as interacting particle systems. (see citations c1, c5)
                     </p>
+
+                    <h2>The positive effects of Computational Particle Physics</h2>
+
+                    <p>
+                        Though there are many obvious positive effects of compututational particle physics 
+                        that were mentioned in the Introduction (link here), there Some indirect effects which
+                        may surprise you. (see citation c7)
+
+                    </p>
+
+                    <h3>The World Wide Web</h3>
+
+                    <p>
+                        Whatever one may think of the World Wide Web, it has impacted all of ourlives forever
+                        (mostly positively). However the main reason the World Wide Web was even conceived and
+                        created was because of particle physicists needing a fast and efficient way of sending 
+                        information to their colleagues. In 1991-1992, SLAC, MIT and Fermilab launched the 
+                        first webservers in the United States. As for what the WWW has become, I don't think 
+                        I need to explain...
+                    </p>
+
+                    <h3>Cancer Therapy</h3>
+
+                    <p>
+                        Almost all medical centres in the United States use particle accelerators producing 
+                        protons, X-rays, protons, neutrons or heavy ions for diagnosis and treatment of disease.
+                        It is estimated there are 7000 accelerators that have treated over 30,000,00 patients for
+                        cancer.
+                    </p>
+
+                    <h3>Power Transmission</h3>
+
+                    <p>
+                        Particle accelerators require a lot of power, and so it should be delivered in the most 
+                        efficient way. In order to achieve efficient power delivery for their Tevaton accelerator, 
+                        Fermilab partnered up with industry to mass-manufacture superconducting wire. These wires, 
+                        because of their superconducting capabilities, can transfer far more electricity with minimal 
+                        power losses.
+                    </p>
+
+
+                    <h3>Contact Info</h3>
+
+                    <a href="https://github.com/antonov737" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="Github"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anton-egorov-310a6a22a" target="_blank" rel="noopener noreferrer">
+                        <Button color="blue" name="LinkedIn"/>
+                    </a>
             </div> 
         </div>
     </div>
