@@ -1,50 +1,16 @@
-/* @media only screen and (max-width: 800px) {
-    .items {
-        flex-direction: column;
-        align-items: center;
-    }
-} */
-
-/* .layout {
-    display: flex;
-    padding-top: 10px;
-    flex-direction: column;
-    /* text-align: center; */
-    /* font-family: 'SourceCodePro-Black';
-} */
-
-/* .layout h1 {
-    padding-top: 25px;
-    color: #002c3e;
-    padding-bottom: 10px;
-    margin: 0;
-}
-
-.layout h2 {
-    padding-top: 25px;
-    color: #002c3e;
-    margin: 0;
-} */
-
-/* .layout p {
-    text-align: center;
-    padding-top: 5px;
-    color: #002c3e;
-    font-weight: normal;
-    font-family: 'Arial', serif;
-    max-width: 60%;
-} */
-
 .flexColumn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .flexColumn img {
     max-width: 500px;
-    border-radius: 1rem;
+    border-radius: 2rem;
     align-items: center;
+}
+
+.flexColumn p {
+    text-align: left;
 }
