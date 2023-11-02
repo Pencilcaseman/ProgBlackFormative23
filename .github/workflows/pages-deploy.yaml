@@ -40,7 +40,7 @@ jobs:
           npm run build
       - name: Copy build files
         run: |
-          cp -r ./ ./_site
+          cp -r ./build ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
