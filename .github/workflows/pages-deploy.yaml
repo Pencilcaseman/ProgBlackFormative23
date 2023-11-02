@@ -37,4 +37,6 @@ jobs:
           npm install
       - name: Deploy Site
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@users.noreply.github.com"
           npm run deploy

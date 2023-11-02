@@ -15,12 +15,13 @@ function App() {
     <div className='App'>
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/artificial-intelligence' element={<ArtificialIntelligence />} />
-        <Route path='*' element={<PageNotFound />} />
-        <Route path='/particlephysics' element={<ParticlePhysics />} />
-        <Route path='/particlephysics_citations' element={<ParticlePhysicsCitations />} />
+          <Route index element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/artificial-intelligence' element={<ArtificialIntelligence />} />
+          <Route path='/particlephysics' element={<ParticlePhysics />} />
+          <Route path='/particlephysics_citations' element={<ParticlePhysicsCitations />} />
+          <Route path='*' element={<PageNotFound />} />
       </Routes>
     </Router>
     </div>
