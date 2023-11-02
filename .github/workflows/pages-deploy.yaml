@@ -34,9 +34,6 @@ jobs:
       issues: write
       metadata: read
       packages: write
-      pullrequests: write
-      repositoryprojects: write
-      securityevents: write
       statuses: write
     steps:
       - name: Checkout
