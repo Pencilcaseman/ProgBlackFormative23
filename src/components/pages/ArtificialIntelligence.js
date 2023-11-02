@@ -11,7 +11,7 @@ const ArtificialIntelligence = () => {
             <div className={"flexColumn"}>
                 <figure>
                     <img src={"neuralNetworkDiagram.png"} alt={"Neural Network Diagram"}/>
-                    <figcaption>Deep Neural Network, taken from <a href="https://www.tobydavis.dev/tutorials/machineLearning/exploringNeuralNetworksInCPP" target="_blank"><code>tobydavis.dev</code></a></figcaption>
+                    <figcaption>Deep Neural Network, taken from <a href="https://www.tobydavis.dev/tutorials/machineLearning/exploringNeuralNetworksInCPP" target="_blank" rel="noopener noreferrer"><code>tobydavis.dev</code></a></figcaption>
                 </figure>
 
                 <h2>Fundamentals</h2>
@@ -47,7 +47,8 @@ const ArtificialIntelligence = () => {
 
                 <p>
                     AI models are also commonly used to assist programmers in developing applications. Programs such
-                    as <a href="https://github.com/features/copilot">GitHub Copilot</a> and <a href="https://codeium.com">Codeium</a> integrate
+                    as <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer">GitHub Copilot</a>
+                    and <a href="https://codeium.com" target="_blank" rel="noopener noreferrer">Codeium</a> integrate
                     directly into your IDE and provide real-time contextual code suggestions and completions.
                     Although criticised by many -- especially when used by novice programmers -- tools like these accelerate
                     development rapidly by reducing the time required to write boilerplate code, repetative code and common functions
