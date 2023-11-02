@@ -58,7 +58,7 @@ jobs:
       - name: Credential Setup Phase 2
         run: |
           git config --global hub.protocol https
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}:x-oauth-basic@github.com/ProgBlackFormative23.git
+          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}:x-oauth-basic@github.com/Pencilcaseman/ProgBlackFormative23.git
             
       - name: Deploy Site
         run: |
