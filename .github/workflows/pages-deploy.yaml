@@ -28,16 +28,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.0
+
       - name: Install Dependencies
         run: |
           npm install
+
+      - name: Configure git credentials
+        uses: OleksiyRudenko/gha-git-credentials@v2.1.1
+            
       - name: Deploy Site
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions@users.noreply.github.com"
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/Pencilcaseman/ProgBlackFormative.git
           npm run deploy
