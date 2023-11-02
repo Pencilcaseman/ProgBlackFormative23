@@ -26,18 +26,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-        Actions: write
-        Checks: write
-        Contents: write
-        Deployments: write
-        Discussions: write
-        Issues: write
-        Metadata: read
-        Packages: write
-        PullRequests: write
-        RepositoryProjects: write
-        SecurityEvents: write
-        Statuses: write
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      discussions: write
+      issues: write
+      metadata: read
+      packages: write
+      pullRequests: write
+      repositoryProjects: write
+      securityEvents: write
+      statuses: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
