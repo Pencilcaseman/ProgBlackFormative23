@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ProgBlackFormative23/static/css/main.5f5788cb.css",
+    "main.js": "/ProgBlackFormative23/static/js/main.c37aa42e.js",
+    "static/js/787.65ecfdfb.chunk.js": "/ProgBlackFormative23/static/js/787.65ecfdfb.chunk.js",
+    "static/media/SourceCodePro-Medium.ttf": "/ProgBlackFormative23/static/media/SourceCodePro-Medium.f4fa00a9bdfab752a663.ttf",
+    "static/media/SourceCodePro-Black.ttf": "/ProgBlackFormative23/static/media/SourceCodePro-Black.e1c2ed0db6bb31a9e5fd.ttf",
+    "static/media/logo.png": "/ProgBlackFormative23/static/media/logo.b7f776fed758ffbc230d.png",
+    "static/media/404.webp": "/ProgBlackFormative23/static/media/404.0b594ad773d899bd3b71.webp",
+    "index.html": "/ProgBlackFormative23/index.html",
+    "main.5f5788cb.css.map": "/ProgBlackFormative23/static/css/main.5f5788cb.css.map",
+    "main.c37aa42e.js.map": "/ProgBlackFormative23/static/js/main.c37aa42e.js.map",
+    "787.65ecfdfb.chunk.js.map": "/ProgBlackFormative23/static/js/787.65ecfdfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f5788cb.css",
+    "static/js/main.c37aa42e.js"
+  ]
+}
