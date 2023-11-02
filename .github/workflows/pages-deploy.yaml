@@ -35,23 +35,6 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
-      - name: Build Site
+      - name: Deploy Site
         run: |
-          npm run build
-      - name: Copy build files
-        run: |
-          cp -r ./build ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          npm run deploy
