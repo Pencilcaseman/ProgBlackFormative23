@@ -32,7 +32,6 @@ jobs:
       deployments: write
       discussions: write
       issues: write
-      metadata: read
       packages: write
       statuses: write
     steps:
