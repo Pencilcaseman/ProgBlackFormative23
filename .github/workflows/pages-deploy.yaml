@@ -48,11 +48,17 @@ jobs:
         run: |
           npm install
 
-      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      - name: Credential Setup Phase 1
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           global: true
           name: "GitHub Actions Deployer"
           token: '${{ secrets.GITHUB_TOKEN }}'
+
+      - name: Credential Setup Phase 2
+        run: |
+          git config --global hub.protocol https
+          git remote set-url origin https://${{ GITHUB_TOKEN }}:x-oauth-basic@github.com/ProgBlackFormative23.git
             
       - name: Deploy Site
         run: |
