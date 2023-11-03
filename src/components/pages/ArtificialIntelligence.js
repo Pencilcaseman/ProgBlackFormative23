@@ -10,6 +10,7 @@ const ArtificialIntelligence = () => {
             <h1>Artificial Intelligence and Machine Learning</h1>
             <div className={"flexColumn"}>
                 <figure>
+                    {/* This is broken */}
                     <img src={"neuralNetworkDiagram.png"} alt={"Neural Network Diagram"}/>
                     <figcaption>Deep Neural Network, taken from <a href="https://www.tobydavis.dev/tutorials/machineLearning/exploringNeuralNetworksInCPP" target="_blank" rel="noopener noreferrer"><code>tobydavis.dev</code></a></figcaption>
                 </figure>
@@ -45,6 +46,7 @@ const ArtificialIntelligence = () => {
                     and mostly factual answer in whatever teaching-style suits them best.
                 </p>
 
+                {/* Improved spacing needed between the following links */}
                 <p>
                     AI models are also commonly used to assist programmers in developing applications. Programs such
                     as <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer">GitHub Copilot</a>
