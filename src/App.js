@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
+
 import ArtificialIntelligence from "./components/pages/ArtificialIntelligence";
 import Home from './components/pages/Home';
 import PageNotFound from './components/pages/PageNotFound';
